@@ -1,0 +1,45 @@
+{
+  "name": "backend-typescript",
+  "version": "1.0.0",
+  "description": "This project will have apis and is used for learning purposes and to be used as boilerplate for future TypeScript Projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkkrsingh877/MERN-TypeScript-Setup-Project.git"
+  },
+  "keywords": [
+    "Learning",
+    "TypeScript",
+    "Jest"
+  ],
+  "author": "Prabhat Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkkrsingh877/MERN-TypeScript-Setup-Project/issues"
+  },
+  "homepage": "https://github.com/pkkrsingh877/MERN-TypeScript-Setup-Project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
